@@ -1,15 +1,14 @@
-terraform {
-  required_providers {
-    yandex = {
-      source  = "yandex-cloud/yandex"
-      version = "0.124.0"
-    }
-  }
+resource "yandex_compute_disk" "boot_disk-vm" {
+  name = "boot_disc-vm"
+  type = "network-ssd"
+  size = "30"
+  image_id = var.image_id
+}
+resource "yandex_compute_instance" "vm" {
+  name = "vm"
+  
 }
 
-provider "yandex" {
-  zone = "ru-central1-b"
-}
 resource "yandex_compute_disk" "boot-disk-1" {
   name     = "boot-disk-1"
   type     = "network-hdd"
