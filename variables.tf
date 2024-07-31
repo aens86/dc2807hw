@@ -19,8 +19,8 @@ variable "yc_iam_token" {
     sensitive = true
   
 }
-variable "region" {
-    description = "Region"
+variable "zone" {
+    description = "Zone"
     type = string
   
 }
