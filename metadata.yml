@@ -1,0 +1,7 @@
+#ya_cloud config
+users:
+- name: user
+  groups: sudo
+  shell: /bin/bash
+  sudo: ["ALL=(ALL) NOPASSWD:ALL"]
+  ssh-authorized-keys: -ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMQ6FMNgKA7bQwRin9+HFyy6kNqtymPXm/Kg3MJXaxk5 root@inst2507
