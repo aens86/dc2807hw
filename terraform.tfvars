@@ -1,2 +1,4 @@
 cloud_id = "b1g0ilppk8eehsgioqes"
-token = "t1.9euelZrPlIuUjI-OnZOQzpfOkY2Ule3rnpWaipzKnpKSx8vMjJCXkpzJy8vl8_dbGlhK-e8_I1dS_N3z9xtJVUr57z8jV1L8zef1656VmszGyomOzpzGjJmUy5DKicyP7_zN5_XrnpWanpiXzpOdzZ2Xyc7KmJiOz5Xv_cXrnpWazMbKiY7OnMaMmZTLkMqJzI8.o8ySzu96qXT0a_Orvu7nYNIfPkw-Pp4_kOwOIxLm4D0LlBCj6VT3HArgUV0QGRjcFKzeMPYTN6imAempk2YvCw"
+folder_id = "b1gjnbajiuh9r4mtam2c"
+image_id = "fd88q8cetpv706g8kia9"
+region = "ru-central1-b"

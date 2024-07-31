@@ -13,9 +13,10 @@ variable "image_id" {
     type = string
   
 }
-variable "token" {
-    description = "IAM token"
+variable "yc_iam_token" {
+    description = "Yandex token .Use'yc iam create-token' to receive"
     type = string
+    sensitive = true
   
 }
 variable "region" {
