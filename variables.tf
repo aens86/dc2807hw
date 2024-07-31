@@ -1,7 +1,7 @@
 variable "service_account_key_file" {
     description = "Service account key file"
     type = string
-    default = "/home/user/terraform/dc2507"
+    default = "/home/user/terraform/dc2507/key.json"
 }
 variable "cloud_id" {
     description = "Cloud ID"
