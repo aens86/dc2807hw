@@ -13,3 +13,13 @@ variable "image_id" {
     type = string
   
 }
+variable "token" {
+    description = "IAM token"
+    type = string
+  
+}
+variable "region" {
+    description = "Region"
+    type = string
+  
+}
