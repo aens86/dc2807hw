@@ -7,6 +7,18 @@ resource "yandex_compute_disk" "boot_disk-vm" {
 resource "yandex_compute_instance" "vm" {
   name = "vm"
   
+  resources {
+    cores = 2
+    memory = 2
+  }
+  boot_disc {
+    disk_id = yandex_compute_disk.boot_disc-vm
+
+  }
+  network_interface {
+    
+  }
+  
 }
 
 resource "yandex_compute_disk" "boot-disk-1" {
